@@ -20,11 +20,9 @@ export default function Home() {
         <ProblemSection />
 
         <Benefits />
-        <MethodologySection />
-        <Methodology />
 
         <About />
-        <Testimonials />
+
         <FAQ />
       </main>
       <Footer />
