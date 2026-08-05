@@ -33,31 +33,29 @@ export default function About() {
             viewport={{ once: true }}
             className="flex-1"
           >
-            <span className="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Sua Nutricionista</span>
+            <span className="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">
+              Sua Nutricionista
+            </span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-              Olá, eu sou a <span className="text-primary italic">Vitória Dafne</span>.
+              Olá, eu sou a{" "}
+              <span className="text-primary italic">Vitória Dafne</span>.
             </h2>
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Sou nutricionista especialista em emagrecimento, reeducação alimentar e hipertrofia. Minha missão é ajudar você a transformar não só o corpo, mas a sua relação com a comida.
+                Sou nutricionista especialista em emagrecimento, reeducação
+                alimentar e hipertrofia. Minha missão é ajudar você a
+                transformar não só o corpo, mas a sua relação com a comida.
               </p>
               <p>
-                Com anos de experiência e centenas de pacientes atendidos, desenvolvi um método que une nutrição clínica baseada em evidências com acompanhamento próximo e humano, sem dietas malucas ou restrições que não se sustentam.
+                Com anos de experiência e centenas de pacientes atendidos,
+                desenvolvi um método que une nutrição clínica baseada em
+                evidências com acompanhamento próximo e humano, sem dietas
+                malucas ou restrições que não se sustentam.
               </p>
               <p className="font-medium text-text-main">
-                Acredito que comer bem é um ato de amor próprio, e não uma punição.
+                Acredito que comer bem é um ato de amor próprio, e não uma
+                punição.
               </p>
-            </div>
-
-            <div className="mt-12 grid grid-cols-2 gap-8">
-              <div>
-                <p className="text-4xl font-serif font-bold text-primary mb-2">8+</p>
-                <p className="text-sm font-bold text-text-muted uppercase tracking-wider">Anos de experiência</p>
-              </div>
-              <div>
-                <p className="text-4xl font-serif font-bold text-primary mb-2">500+</p>
-                <p className="text-sm font-bold text-text-muted uppercase tracking-wider">Pacientes transformados</p>
-              </div>
             </div>
           </motion.div>
         </div>
