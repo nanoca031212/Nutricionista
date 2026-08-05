@@ -11,9 +11,14 @@ export default function Footer() {
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">
             Pronto para sua <span className="text-primary italic">melhor versão?</span>
           </h2>
-          <button className="bg-white text-dark-accent px-10 py-5 rounded-full text-xl font-bold hover:bg-primary hover:text-white transition-all shadow-2xl active:scale-95">
+          <a
+            href="https://wa.me/5511981878996"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-dark-accent px-10 py-5 rounded-full text-xl font-bold hover:bg-primary hover:text-white transition-all shadow-2xl active:scale-95"
+          >
             Agendar minha consulta agora
-          </button>
+          </a>
         </div>
 
         <div className="grid md:grid-cols-4 gap-12 pt-16 border-t border-white/10">

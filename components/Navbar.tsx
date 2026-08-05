@@ -50,12 +50,14 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="#contato"
+          <a
+            href="https://wa.me/5511981878996"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all shadow-md hover:shadow-lg active:scale-95"
           >
             Agendar Consulta
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -89,13 +91,15 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="#contato"
+              <a
+                href="https://wa.me/5511981878996"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary text-white px-6 py-4 rounded-xl text-center font-bold shadow-lg active:scale-[0.98] transition-all"
                 onClick={() => setIsOpen(false)}
               >
                 Agendar Consulta
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}

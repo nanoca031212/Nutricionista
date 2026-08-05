@@ -137,7 +137,12 @@ export default function ProblemSection() {
               </span>{" "}
               é para você.
             </motion.p>
-            <button className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]">
+            <a
+              href="https://wa.me/5511981878996"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+            >
               {" "}
               <span className="flex-1 font-bold text-base md:text-center">
                 {" "}
@@ -147,7 +152,7 @@ export default function ProblemSection() {
                 {" "}
                 <ArrowUpRight className="w-4 h-4" />{" "}
               </div>{" "}
-            </button>
+            </a>
           </div>
         </div>
 
