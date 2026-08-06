@@ -6,24 +6,24 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Como funciona a consultoria individual?",
-    a: "É um acompanhamento próximo de 3 meses, com consultas periódicas e suporte diário via WhatsApp para ajustes e dúvidas — seja seu objetivo emagrecimento, hipertrofia ou reeducação alimentar."
+    q: "Como funciona o acompanhamento psicológico?",
+    a: "As sessões têm 50 minutos e acontecem semanalmente ou quinzenalmente, conforme sua necessidade. O ritmo e a abordagem são ajustados ao longo do processo, de acordo com o que você traz em cada encontro."
   },
   {
-    q: "O plano funciona para quem treina e quer ganhar massa muscular?",
-    a: "Sim. Além do emagrecimento, trabalho protocolos específicos para hipertrofia, ajustando calorias, proteína e timing de refeições de acordo com seu treino."
+    q: "Você atende ansiedade, depressão, síndrome do pânico e burnout?",
+    a: "Sim. O atendimento é voltado a pacientes que enfrentam esses quadros, sempre com escuta acolhedora e cuidado individualizado."
   },
   {
-    q: "Preciso comprar suplementos caros?",
-    a: "Não. O foco é 100% em comida de verdade. Suplementação é indicada apenas como complemento, quando há necessidade clínica comprovada por exames."
-  },
-  {
-    q: "Posso comer fora e socializar?",
-    a: "Com certeza! O plano ensina você a fazer escolhas inteligentes em qualquer ambiente, sem precisar levar marmita para festas."
+    q: "As sessões são sigilosas?",
+    a: "Sim. Tudo o que é conversado durante o acompanhamento é tratado com ética profissional e total confidencialidade."
   },
   {
     q: "Atende online ou presencial?",
-    a: "Atualmente os atendimentos são 100% online, permitindo que eu atenda pacientes de todo o Brasil com a mesma qualidade e comodidade."
+    a: "Os atendimentos são realizados por videochamada, o que permite receber pacientes de qualquer lugar com o mesmo cuidado do presencial."
+  },
+  {
+    q: "Como faço para agendar minha primeira sessão?",
+    a: "Basta chamar no WhatsApp para conversarmos sobre o seu momento atual e encontrarmos o melhor horário para começar."
   }
 ];
 

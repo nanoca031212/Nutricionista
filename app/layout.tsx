@@ -13,9 +13,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Vitória Dafne | Nutricionista - Emagrecimento, Reeducação Alimentar e Hipertrofia",
+  title: "Ana Oliveira Psicologia | Atendimento Psicológico Online",
   description:
-    "Consultoria nutricional individualizada com a nutricionista Vitória Dafne. Emagrecimento sustentável, reeducação alimentar e hipertrofia com acompanhamento próximo. Agende sua consulta.",
+    "Sessões de acompanhamento psicológico com a psicóloga Ana Oliveira. Atendimento individualizado para ansiedade, depressão, síndrome do pânico e burnout. Agende sua sessão.",
 };
 
 export default function RootLayout({

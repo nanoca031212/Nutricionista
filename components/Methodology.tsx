@@ -16,8 +16,8 @@ export default function Methodology() {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/healthy-food.png"
-                alt="Comida saudável"
+                src="/psico.png"
+                alt="Atendimento psicológico"
                 width={500}
                 height={600}
                 className="w-full h-auto object-cover aspect-[4/5]"
@@ -34,21 +34,21 @@ export default function Methodology() {
             className="flex-1"
           >
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-              A alimentação não deve ser uma <span className="text-primary italic">prisão</span>.
+              Cuidar da mente não deve ser uma <span className="text-primary italic">prisão</span>.
             </h2>
             <div className="space-y-8">
               {[
                 {
-                  title: "Avaliação 360º",
-                  text: "Análise completa do seu histórico, exames, sono, treino e níveis de estresse para entender a causa raiz do seu peso ou da dificuldade em ganhar massa."
+                  title: "Acolhimento inicial",
+                  text: "Conversa para entender seu histórico, o que você sente e o que te trouxe até aqui, seja ansiedade, depressão, pânico ou burnout."
                 },
                 {
-                  title: "Planejamento sob medida",
-                  text: "Nada de listas genéricas. Seu plano de emagrecimento, hipertrofia ou reeducação alimentar é montado com o que você gosta e o que sua rotina permite."
+                  title: "Plano terapêutico sob medida",
+                  text: "Nada de abordagens genéricas. O acompanhamento é construído de acordo com a sua história e os seus objetivos."
                 },
                 {
-                  title: "Suporte diário",
-                  text: "Dúvidas não esperam pela próxima consulta. Você tem um canal direto comigo para ajustes e motivação constante."
+                  title: "Contato entre sessões",
+                  text: "Dúvidas de agendamento não precisam esperar pela próxima sessão. Você tem um canal direto comigo."
                 }
               ].map((item, index) => (
                 <div key={index} className="flex gap-6">

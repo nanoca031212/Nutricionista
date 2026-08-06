@@ -19,9 +19,9 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Início" },
-    { href: "#jornada", label: "Especialidades" },
-    { href: "#metodologia", label: "Método" },
+    { href: "#jornada", label: "Atendimento" },
     { href: "#sobre", label: "Sobre" },
+    { href: "#faq", label: "Dúvidas" },
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-20 lg:px-32 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
           <span className="text-2xl font-serif font-bold text-primary tracking-tight">
-            Vitória <span className="text-text-main">Dafne</span>
+            Ana <span className="text-text-main">Oliveira</span>
           </span>
         </Link>
 
@@ -51,12 +51,12 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://wa.me/5511981878996"
+            href="https://wa.me/5511959067457"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all shadow-md hover:shadow-lg active:scale-95"
           >
-            Agendar Consulta
+            Agendar Sessão
           </a>
         </div>
 
@@ -92,13 +92,13 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://wa.me/5511981878996"
+                href="https://wa.me/5511959067457"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-white px-6 py-4 rounded-xl text-center font-bold shadow-lg active:scale-[0.98] transition-all"
                 onClick={() => setIsOpen(false)}
               >
-                Agendar Consulta
+                Agendar Sessão
               </a>
             </div>
           </motion.div>

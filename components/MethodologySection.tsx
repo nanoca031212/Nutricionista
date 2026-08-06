@@ -9,22 +9,22 @@ const steps = [
   {
     title: "Contato inicial",
     description:
-      "Sessão de abertura para mapear seu histórico, objetivo (emagrecimento, hipertrofia ou reeducação) e definir os próximos passos.",
+      "Primeiro contato para entender seu momento atual e o que te motivou a buscar ajuda.",
   },
   {
     title: "Sessões de acompanhamento",
     description:
-      "Consultas periódicas para ajuste de rota, análise de exames e suporte clínico.",
+      "Sessões de 50 minutos, semanais ou quinzenais, para o trabalho terapêutico contínuo.",
   },
   {
-    title: "Acompanhamento próximo",
+    title: "Contato entre sessões",
     description:
-      "Acompanhamento contínuo pelo WhatsApp, para ajustes e dúvidas do dia a dia.",
+      "Canal direto pelo WhatsApp para agendamentos e dúvidas do dia a dia.",
   },
   {
-    title: "Entregas da consultoria",
+    title: "Cuidado ao longo do processo",
     description:
-      "Entregas distribuídas ao longo do processo (protocolos, planos alimentares, materiais de apoio).",
+      "Orientações e materiais de apoio distribuídos conforme a necessidade de cada etapa.",
   },
 ];
 
@@ -45,13 +45,12 @@ export default function MethodologySection() {
             <span className="text-primary italic">desde o primeiro passo.</span>
           </h2>
           <p className="text-text-muted text-lg max-w-3xl mx-auto mb-8">
-            Antes mesmo de iniciar a consultoria, você passa por uma
-            conversa inicial gratuita. É um momento de escuta, análise e
-            entendimento do seu momento atual e dos seus objetivos —
-            emagrecimento, hipertrofia ou reeducação alimentar.
+            Antes de iniciar o acompanhamento, conversamos para entender o
+            seu momento atual — seja ansiedade, depressão, síndrome do
+            pânico ou burnout — e o que você espera do processo.
           </p>
           <p className="font-bold text-text-main">
-            Se houver alinhamento, iniciamos o acompanhamento de 90 dias com:
+            Se houver alinhamento, iniciamos o acompanhamento psicológico com:
           </p>
         </div>
 
@@ -92,8 +91,8 @@ export default function MethodologySection() {
             >
               {/* Placeholder for the reading image */}
               <Image
-                src="/hero-nutri.png"
-                alt="Metodologia Nutricional"
+                src="/psico.png"
+                alt="Metodologia de Atendimento Psicológico"
                 fill
                 className="object-cover"
               />
@@ -106,7 +105,7 @@ export default function MethodologySection() {
             {/* CTA Button fixed relative to image as in design or just below */}
             <div className="mt-8 flex justify-center lg:justify-start">
               <a
-                href="https://wa.me/5511981878996"
+                href="https://wa.me/5511959067457"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-5 w-full max-w-md gap-2 md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
@@ -114,7 +113,7 @@ export default function MethodologySection() {
                 {" "}
                 <span className="flex-1 font-bold text-base md:text-center">
                   {" "}
-                  AGENDAR MINHA CONSULTA{" "}
+                  AGENDAR MINHA SESSÃO{" "}
                 </span>{" "}
                 <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
                   {" "}

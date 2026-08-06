@@ -16,8 +16,8 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl skew-y-2 hover:skew-y-0 transition-transform duration-700">
               <Image
-                src="/hero-nutri.png" /* Reusing the nutritionist image or could use another if generated */
-                alt="Vitória Dafne"
+                src="/psico.png"
+                alt="Ana Oliveira"
                 width={500}
                 height={600}
                 className="w-full h-auto object-cover  transition-all duration-700"
@@ -34,27 +34,27 @@ export default function About() {
             className="flex-1"
           >
             <span className="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">
-              Sua Nutricionista
+              Sua Psicóloga
             </span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
               Olá, eu sou a{" "}
-              <span className="text-primary italic">Vitória Dafne</span>.
+              <span className="text-primary italic">Ana Oliveira</span>.
             </h2>
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Sou nutricionista especialista em emagrecimento, reeducação
-                alimentar e hipertrofia. Minha missão é ajudar você a
-                transformar não só o corpo, mas a sua relação com a comida.
+                Sou psicóloga e atendo pacientes que enfrentam ansiedade,
+                depressão, síndrome do pânico e burnout. Minha missão é
+                oferecer um espaço seguro para você entender o que sente e
+                encontrar caminhos para lidar com isso.
               </p>
               <p>
-                Com anos de experiência e centenas de pacientes atendidos,
-                desenvolvi um método que une nutrição clínica baseada em
-                evidências com acompanhamento próximo e humano, sem dietas
-                malucas ou restrições que não se sustentam.
+                Cada sessão dura 50 minutos e é pensada para o seu momento,
+                com escuta atenta e sigilo profissional em todas as etapas
+                do acompanhamento.
               </p>
               <p className="font-medium text-text-main">
-                Acredito que comer bem é um ato de amor próprio, e não uma
-                punição.
+                Me preocupo genuinamente com o bem-estar de cada paciente
+                que atendo.
               </p>
             </div>
           </motion.div>

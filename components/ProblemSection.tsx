@@ -30,7 +30,7 @@ export default function ProblemSection() {
                   </div>
                   <Image
                     src="/retangulomenor.jpg"
-                    alt="Nutrição Saudável"
+                    alt="Saúde mental e bem-estar"
                     fill
                     className="object-cover"
                   />
@@ -45,7 +45,7 @@ export default function ProblemSection() {
                 >
                   <Image
                     src="/quadrado.jpg"
-                    alt="Nutrição Saudável"
+                    alt="Saúde mental e bem-estar"
                     fill
                     className="object-cover"
                   />
@@ -62,7 +62,7 @@ export default function ProblemSection() {
                 >
                   <Image
                     src="/retanguloDeitado.jpg"
-                    alt="Nutrição e Bem-estar"
+                    alt="Acolhimento e bem-estar"
                     fill
                     className="object-cover"
                   />
@@ -77,7 +77,7 @@ export default function ProblemSection() {
                 >
                   <Image
                     src="/retangulo.jpg"
-                    alt="Nutrição Saudável"
+                    alt="Saúde mental e bem-estar"
                     fill
                     className="object-cover"
                   />
@@ -94,9 +94,9 @@ export default function ProblemSection() {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-serif font-bold text-text-main leading-[1.15] mb-8"
             >
-              Já tentou de tudo e{" "}
+              Reconhece esses{" "}
               <span className="text-primary italic">
-                ainda não viu resultado?
+                sinais em você?
               </span>
             </motion.h2>
 
@@ -107,9 +107,9 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
               >
-                Mesmo com esforço e restrição, o ponteiro da balança não se
-                move — ou os resultados somem assim que a rotina volta ao
-                normal.
+                Uma preocupação constante que não passa, o coração acelerado
+                sem motivo aparente, ou dias em que sair da cama já parece
+                uma tarefa grande demais.
               </motion.p>
 
               <motion.p
@@ -118,9 +118,9 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Você sente que o corpo não responde nem à dieta nem ao
-                treino, convive com efeito sanfona e dificuldade para ganhar
-                massa magra.
+                Podem ser sinais de ansiedade, depressão, síndrome do
+                pânico ou de um esgotamento (burnout) que já se arrasta há
+                tempo demais — e que merecem um cuidado profissional.
               </motion.p>
             </div>
 
@@ -131,14 +131,14 @@ export default function ProblemSection() {
               transition={{ delay: 0.4 }}
               className="text-xl font-bold text-text-main"
             >
-              Então, a minha{" "}
+              Então, o meu{" "}
               <span className="text-primary italic">
-                consultoria nutricional individualizada
+                acompanhamento psicológico individualizado
               </span>{" "}
               é para você.
             </motion.p>
             <a
-              href="https://wa.me/5511981878996"
+              href="https://wa.me/5511959067457"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
@@ -146,7 +146,7 @@ export default function ProblemSection() {
               {" "}
               <span className="flex-1 font-bold text-base md:text-center">
                 {" "}
-                AGENDAR MINHA CONSULTA{" "}
+                AGENDAR MINHA SESSÃO{" "}
               </span>{" "}
               <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
                 {" "}

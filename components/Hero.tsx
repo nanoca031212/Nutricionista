@@ -21,20 +21,20 @@ export default function Hero() {
           className=""
         >
           <span className="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
-            Nutricionista Especialista
+            Psicóloga
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
-            Emagreça e <span className="text-primary italic">ganhe massa</span>{" "}
-            de vez.
+            Cuide da sua mente com{" "}
+            <span className="text-primary italic">quem se importa</span>.
           </h1>
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-lg leading-relaxed">
-            Consultoria individualizada em emagrecimento, reeducação
-            alimentar e hipertrofia — sem dietas malucas, feita para o seu
-            corpo.
+            Sessões de acompanhamento psicológico para quem enfrenta
+            ansiedade, depressão, síndrome do pânico ou burnout — em um
+            espaço seguro e sigiloso.
           </p>
 
           <a
-            href="https://wa.me/5511981878996"
+            href="https://wa.me/5511959067457"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
@@ -42,7 +42,7 @@ export default function Hero() {
             {" "}
             <span className="flex-1 font-bold text-base md:text-center">
               {" "}
-              AGENDAR MINHA CONSULTA{" "}
+              AGENDAR MINHA SESSÃO{" "}
             </span>{" "}
             <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
               {" "}
@@ -51,21 +51,25 @@ export default function Hero() {
           </a>
 
           <div className="mt-8 flex items-center gap-4">
-            <div className="flex -space-x-3">
-              {[1, 2, 3, 4].map((i) => (
-                <div
-                  key={i}
-                  className="w-10 h-10 rounded-full border-2 border-white hover:scale-110 bg-zinc-200 overflow-hidden"
-                >
-                  <div className="w-full h-full bg-primary/20 flex items-center justify-center text-[10px] font-bold text-primary">
-                    +{i}k
-                  </div>
-                </div>
-              ))}
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"
+                />
+              </svg>
             </div>
             <p className="text-sm text-text-muted font-medium">
-              <span className="font-bold text-text-main">+500 pacientes</span>{" "}
-              transformados este ano
+              <span className="font-bold text-text-main">Sigilo profissional</span>{" "}
+              garantido em todas as sessões
             </p>
           </div>
         </motion.div>
@@ -77,11 +81,11 @@ export default function Hero() {
           className="relative mt-auto md:mt-0"
         >
           <Image
-            src="/Nutricionista.svg"
-            alt="Nutricionista sorrindo"
+            src="/psico.png"
+            alt="Psicóloga sorrindo"
             width={600}
             height={700}
-            className="w-full h-auto object-cover"
+            className="w-[92%] h-auto object-cover mx-auto"
             priority
           />
 
@@ -94,13 +98,13 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-white/40 backdrop-blur-sm rounded-full -z-10 scale-90" />
             <CircularText
-              text="Vitória Dafne • "
+              text="Ana Oliveira • "
               radius={70}
               fontSize="12px"
               className="drop-shadow-lg"
             />
             <div className="absolute w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg overflow-hidden">
-              <span className="text-xl font-serif font-bold italic">VD</span>
+              <span className="text-xl font-serif font-bold italic">AO</span>
             </div>
           </motion.div>
 
@@ -128,17 +132,17 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-xs text-text-muted uppercase font-bold tracking-wider">
-                Nutrição
+                Psicologia
               </p>
               <p className="text-sm font-bold text-text-main">
-                Baseada em Evidências
+                Atendimento Humanizado
               </p>
             </div>
           </motion.div>
         </motion.div>
       </div>
       <div className="absolute bottom-0 left-0 w-full z-20">
-        <Marquee text="VITÓRIA DAFNE NUTRICIONISTA" />
+        <Marquee text="ANA OLIVEIRA PSICOLOGIA" />
       </div>
     </section>
   );

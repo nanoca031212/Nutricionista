@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import {
   Monitor,
   MessageCircle,
-  Apple,
+  HeartHandshake,
   ClipboardCheck,
-  GlassWater,
+  ShieldCheck,
   BookOpen,
   ArrowUpRight,
 } from "lucide-react";
@@ -16,34 +16,34 @@ const benefits = [
   {
     icon: Monitor,
     title: "Sessões individuais",
-    description: "Consultas individuais quinzenais ou semanais, focadas no seu objetivo.",
+    description: "Sessões semanais ou quinzenais de 50 minutos, no seu tempo.",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Escuta acolhedora",
+    description: "Um espaço seguro e livre de julgamentos para você se expressar.",
   },
   {
     icon: MessageCircle,
-    title: "Acompanhamento",
-    description: "Acompanhamento contínuo pelo WhatsApp para tirar dúvidas e ajustar a rota.",
-  },
-  {
-    icon: Apple,
-    title: "Correção e ajustes",
-    description: "Correção e ajustes do plano alimentar conforme sua evolução.",
+    title: "Contato entre sessões",
+    description: "Canal direto para agendamentos, dúvidas e ajustes do acompanhamento.",
   },
   {
     icon: ClipboardCheck,
-    title: "Protocolo personalizado",
+    title: "Plano terapêutico personalizado",
     description:
-      "Protocolo de emagrecimento, reeducação alimentar ou hipertrofia, feito sob medida.",
+      "Abordagem construída de acordo com a sua história e os seus objetivos.",
   },
   {
-    icon: GlassWater,
-    title: "Estratégia de suplementação",
+    icon: ShieldCheck,
+    title: "Sigilo profissional",
     description:
-      "Indicação de suplementação baseada em exames, quando clinicamente necessário.",
+      "Todo o conteúdo das sessões é tratado com ética e confidencialidade.",
   },
   {
     icon: BookOpen,
-    title: "Materiais de apoio",
-    description: "Materiais de apoio, cardápios e receitas práticas para o dia a dia.",
+    title: "Foco em ansiedade, depressão, pânico e burnout",
+    description: "Atendimento especializado nos quadros mais comuns da vida atual.",
   },
 ];
 
@@ -60,15 +60,14 @@ export default function Benefits() {
 
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-            Ao entrar na{" "}
-            <span className="text-primary italic">consultoria individual</span>,
-            você não recebe apenas um plano alimentar.
+            Ao iniciar o{" "}
+            <span className="text-primary italic">acompanhamento psicológico</span>,
+            você não recebe apenas uma sessão.
           </h2>
           <p className="text-text-muted text-lg max-w-2xl mx-auto">
-            Você inicia um processo de transformação real do seu corpo,
-            seja para emagrecer, ganhar massa magra ou reeducar sua
-            alimentação, com suporte, orientação e clareza ao longo dos 90
-            dias.
+            Você inicia um processo real de cuidado com a sua saúde mental,
+            com escuta, orientação e clareza para lidar com a ansiedade,
+            a depressão, o pânico ou o burnout.
           </p>
         </div>
 
@@ -102,8 +101,8 @@ export default function Benefits() {
 
         <div className="mt-20 text-center max-w-2xl mx-auto space-y-12">
           <p className="text-xl font-bold text-text-main">
-            E, acima de tudo, você terá o suporte de uma nutricionista que
-            entende cada etapa desse processo e caminha junto com você.
+            E, acima de tudo, você terá o suporte de uma psicóloga que se
+            importa com o seu bem-estar e caminha junto com você.
           </p>
         </div>
       </div>
